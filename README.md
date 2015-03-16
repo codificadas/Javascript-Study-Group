@@ -12,8 +12,8 @@ Los temas que en este grupo de estudio estaremos viendo están basados en ["The 
 
 Además de éste, hay muchos sitios en los que se pueden apoyar y seguir practicando los temas que vemos en cada sesión, por lo que recomendamos visitarlos y elegir el que más les guste:
 
---[Code Academy](http://www.codecademy.com/)
---[Eloquent Javascript](http://eloquentjavascript.net/)
+- [Code Academy](http://www.codecademy.com/)
+- [Eloquent Javascript](http://eloquentjavascript.net/)
 
 Y si ya se animan a hacer retos:
---[Code Avengers](http://www.codeavengers.com/)
+- [Code Avengers](http://www.codeavengers.com/)
