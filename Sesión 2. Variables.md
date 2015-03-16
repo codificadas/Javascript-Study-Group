@@ -62,7 +62,7 @@ Ejercicios
 
 <code>miNombre.length > miAmiga.length</code>
 
-- Encontrar caracteres dentro de cadenas (<code>cahrAt(index)</code>) 
+- Encontrar caracteres dentro de cadenas (<code>charAt(index)</code>) 
 
 Una cadena está compuesta por caracteres y cada uno de estos caracteres se enumeran empezando en 0, a esta enumeración se le llama index o posición.
 
