@@ -21,7 +21,7 @@ Reglas para nombrar variables
 - Puede contener guion bajo y signo de pesos, pero no es una buena práctica. 
 - El nombre ideal de una variable seria miVariable, iniciando con una minúscula y seguido por palabras que inician con mayúscula (camelcase) 
 
-Cambiar el contenido de una variable.
+Cambiar el contenido de una variable
 --
 - Asignar el nuevo valor, ahora sin utilizar la palabra var, porque javascript ya sabe que existe esa variable previamente 
 - Asignar un valor sobre la misma variable: 
@@ -37,7 +37,36 @@ Incrementos y decrementos
 
 Ejercicios
 --
-*** Almacenar cadenas en variables var miGrupo = ‘Grupo de Javascript’ *** Concatenar variables de cadenas y caracteres de escape miGrupo = ‘Grupo de Javascript:’ var bienvenida = ‘Todos son bienvenidos’ miGrupo + ‘\n’ + bienvenida *** Longitud de la cadena almacenada en la variable var miNombre = ‘Ana Castro Martinez’ miNombre.length *** Comparar longitud de cadenas miNombre = ‘Ana …’ miAmiga = ‘Selene …’ miNombre.length > miAmiga.length *** Encontrar caracteres dentro de cadenas (index) - indice de cada carácter: inicia en 0 - longitud de la cadena es 1+ que el ultimo indice - funciona charAt()
+- Almacenar cadenas en variables 
+
+<code>var miGrupo = ‘Grupo de Javascript’</code>
+- Concatenar variables de cadenas y caracteres de escape 
+
+<code>miGrupo = ‘Grupo de Javascript:’</code>
+
+<code>var bienvenida = ‘Todos son bienvenidos’</code> 
+
+<code>miGrupo + ‘\n’ + bienvenida <code>
+
+- Longitud de la cadena almacenada en la variable 
+ 
+<code>var miNombre = ‘Ana Castro Martinez’</code> 
+
+<code>miNombre.length</code> 
+
+- Comparar longitud de cadenas 
+ 
+<code>miNombre = ‘Ana …’</code> 
+
+<code>miAmiga = ‘Selene …’</code> 
+
+<code>miNombre.length > miAmiga.length</code>
+
+- Encontrar caracteres dentro de cadenas (<code>cahrAt(index)</code>) 
+
+Una cadena está compuesta por caracteres y cada uno de estos caracteres se enumeran empezando en 0, a esta enumeración se le llama index o posición.
+
+<code>miNombre.charAt(2)</code> dará como resultado el caracter que se encuentra en la posición indicada(2).
 
 Referencias
 --
