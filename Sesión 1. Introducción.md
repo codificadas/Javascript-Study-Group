@@ -1,7 +1,7 @@
 Javascript Study Group - Introducción
 ===
 
-¿QUé es Javascript?
+¿Qué es Javascript?
 --
 Javascript es un lenguaje de programación interpretado que surge por la necesidad de integrar ciertos comportamientos dentro de las páginas web. Javascript puede ser utilizado para crear desde pequeños programas/comportamientos dentro de una página web hasta programas más grandes orientados a objetos o aplicaciones hechas con Javascript de inicio a fin.
 
