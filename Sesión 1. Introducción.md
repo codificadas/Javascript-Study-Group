@@ -41,6 +41,7 @@ Abrir la consola de tu navegador web favorito (Firefox, Chrome, Opera).
 - Investigar otros caracteres de escape.
 
 
-Diapositivas:
+Referencias:
+--
 - [Historia de Javascript](http://fernetjs.com/la-historia-de-javascript/)
 - [Javascript Study Group: Introducción](https://www.haikudeck.com/p/NRq96rS2qT/javascript-study-group)
