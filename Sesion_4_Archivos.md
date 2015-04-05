@@ -18,7 +18,7 @@ Práctica 1
 </html>
 ```
 
-2. Dentro de <head></head> incluir el tag <script></script>.
+2. Dentro de <head></head> incluir el tag `<script></script>`.
 3. Crear un archivo llamado trains.js dentro del directorio root.
 4. Incluir trains.js dentro de index.html
 
