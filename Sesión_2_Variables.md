@@ -46,7 +46,7 @@ Ejercicios
 
 <code>var bienvenida = ‘Todos son bienvenidos’</code> 
 
-<code>miGrupo + ‘\n’ + bienvenida <code>
+<code>miGrupo + ‘\n’ + bienvenida </code>
 
 - Longitud de la cadena almacenada en la variable 
  
