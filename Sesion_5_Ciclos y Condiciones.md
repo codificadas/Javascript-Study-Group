@@ -14,19 +14,19 @@ Sirve para ejecutar un conjunto de instrucciones un determinado número de veces
 
 **Ejemplo:**
 
-```
+<code>
 	var number = 1;  
 	while(number<5){  
 		consola.log(number);  
 		number++;  
 	}  
-```
+</code>
 - Escribe el código anterior en un archivo .js e incluýelo en el archivo HTML que ya se creó en sesiones anteriores, comprueba lo que se imprime en la consola de tu navegador preferido, ¿qué resultado ves?, ¿qué fué lo que hizo código?
 
 
 **Ejercicio 1**:
-- En un archivo "countdown.js" escribeun ciclo que imprima en la onsola todos los números del 10 al 1 en orden descendente.
-Pista: Comenzar con la siguiente instrucción:
+- En un archivo "countdown.js" escribeun ciclo que imprima en la onsola todos los números del 10 al 1 en orden descendente.  
+Pista: Comenzar con la siguiente instrucción:  
 <code>var num = 10;</code>
 
 
@@ -37,9 +37,10 @@ Sirve para ejecutar un conjunto de instrucciones un determinado número de veces
 
 
 **Ejemplo**
+
 <code>
-	for(var number = 1; number<5; number++){
-		console.log(number);
+	for(var number = 1; number<5; number++){  
+		console.log(number);  
 	}
 </code>
 - Escribe el código anterior en un archivo .js e incluýelo en el archivo HTML que ya se creó en sesiones anteriores, comprueba lo que se imprime en la consola de tu navegador preferido, ¿qué resultado ves?, ¿qué fué lo que hizo código?
@@ -53,15 +54,17 @@ Reto 1!
 En el Parque Nacional "Death Valley", un grupo de ambientalistas ha comenzado un proyecto con el que aunmentará la población de borregos cimarrones.
 Cada mes, la población se multiplicará por 4!!.
 Para estar al tanto de este crecimiento, los científicos quieren saber cuantos borregos habrá en el parque.
-En un archivo "deathvalley.js", usa las tres variables existentes para construir un ciclo WHILE que imprima un mensaje cada mes durante un año como lo que se muestra a continuación:
-<code>Habrá 16 borregos después de 1 mes(es)<code>
-<code>Habrá 64 borregos después de 2 mes(es)<code>
+En un archivo "deathvalley.js", usa las tres variables existentes para construir un ciclo WHILE que imprima un mensaje cada mes durante un año como lo que se muestra a continuación:  
+<code>
+	Habrá 16 borregos después de 1 mes(es)  
+	Habrá 64 borregos después de 2 mes(es)
+</code>
 
 Pista: Inicia con las siguientes variables:
 
 <code>
-	var numSheep = 4;
-	var monthNumber = 1;
+	var numSheep = 4;  
+	var monthNumber = 1;  
 	var monthsToPrint = 12;
 </code>
 
@@ -74,12 +77,12 @@ Si la condición se cumple (es decir, si el resultado que se obtiene de la condi
 
 **Ejemplo**
 <code>
-	var value1 = 4;
-	var value2 = 9;
-	if(value1<value2){
-		console.log(value1 + " es menor que " + value2);
-	}else{
-		console.log(value1 + " es mayor o igual a " + value2);
+	var value1 = 4;  
+	var value2 = 9;  
+	if(value1<value2){  
+		console.log(value1 + " es menor que " + value2);  
+	}else{  
+		console.log(value1 + " es mayor o igual a " + value2);  
 	}
 </code>
 - Escribe el código anterior en un archivo .js e incluýelo en el archivo HTML que ya se creó en sesiones anteriores. Antes de comprobar el resultado reflexiona lo siguiente: ¿qué resultado crees que se imprimirá en la consola?. Comprueba el resultado, puedes cambiar ahora los valores de tus variables value1 y value2, ¿cómo le harías que te muestre el otro mensaje?
@@ -93,7 +96,7 @@ Si la condición se cumple (es decir, si el resultado que se obtiene de la condi
 
 "Sorry, the Badlands are particularly bad today. We're closed!"
 
-Pista: Empieza con la siguiente instrucción:
+Pista: Empieza con la siguiente instrucción:  
 <code>var parkIsOpen = true;</code>
 
 
@@ -111,11 +114,11 @@ Dentro del ciclo agrega una condición que:
 Pista: El código del primer reto debió quedar así:
 
 <code>
-	var numSheep = 4;
-	var monthsToPrint = 12;
-	for (var monthNumber = 1; monthNumber <= monthsToPrint; monthNumber++){
-		<insert your code here>
-		numSheep *= 4;
+	var numSheep = 4;  
+	var monthsToPrint = 12;  
+	for (var monthNumber = 1; monthNumber <= monthsToPrint; monthNumber++){  
+		[insert your code here]
+		numSheep *= 4;  
 		console.log("Habrá " + numSheep + " después de " + monthNumber + " meses!");
 	}
 </code>
