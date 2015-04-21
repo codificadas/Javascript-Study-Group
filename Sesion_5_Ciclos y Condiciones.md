@@ -26,7 +26,7 @@ Sirve para ejecutar un conjunto de instrucciones un determinado número de veces
 
 **Ejercicio 1**:
 - En un archivo "countdown.js" escribeun ciclo que imprima en la onsola todos los números del 10 al 1 en orden descendente.  
-Pista: Comenzar con la siguiente instrucción:  
+Pista: Comenzar con la siguiente instrucción: 
 <code>var num = 10;</code>
 
 
@@ -90,17 +90,17 @@ Si la condición se cumple (es decir, si el resultado que se obtiene de la condi
 **Ejercicio 3**
 - Usa una condición para imprimir un mensaje en la consola, dependiendo del valor de la variable (parkIsOpen).
 
-"Welcome to the Badlands National Park! Try to enjoy your stay."
+<code>"Welcome to the Badlands National Park! Try to enjoy your stay."</code>
 
 ó
 
-"Sorry, the Badlands are particularly bad today. We're closed!"
+<code>"Sorry, the Badlands are particularly bad today. We're closed!"</code>
 
-Pista: Empieza con la siguiente instrucción:  
+Pista: Empieza con la siguiente instrucción: 
 <code>var parkIsOpen = true;</code>
 
 
-Reflexión: cambia el valor de la variable para que compruebes que te muestre uno u otro mensaje!
+Reflexión: cambia el valor de la variable (parkIsOpen) para que compruebes que te muestre uno u otro mensaje!
 
 
 Reto 2!
