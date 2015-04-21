@@ -13,13 +13,14 @@ Sirve para ejecutar un conjunto de instrucciones un determinado número de veces
 
 
 **Ejemplo:**
-<code>
+
+```
 	var number = 1;
 	while(number<5){
 		consola.log(number);
 		number++;
 	}
-</code>
+```
 - Escribe el código anterior en un archivo .js e incluýelo en el archivo HTML que ya se creó en sesiones anteriores, comprueba lo que se imprime en la consola de tu navegador preferido, ¿qué resultado ves?, ¿qué fué lo que hizo código?
 
 
