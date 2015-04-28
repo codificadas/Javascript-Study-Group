@@ -45,7 +45,7 @@ Cómo ya se mencionó, esta función permite que el usuario ingrese algún valor
 	var username = prompt("Yo passenger! What's your name?");  
 </code>
 
-*Operador typeof*
+**Operador typeof**
 --
 
 El operador typeof permite identificar el tipo de datos que se encuentra en una variable o expresión:  
@@ -79,25 +79,25 @@ Las funciones son un conjunto de instrucciones que se agrupan para realizar una 
 
 Sintaxis básica de una función
 --
-<code>
+```
 function nombreDeLaFuncion](parametro1, parametro2){  
-	*Instrucciones*
-	return valor;
+	*Instrucciones*  
+	return valor;  
 }  
-</code>
+```
 
 Ejemplo
 --
 La siguiente función recibe dos numéros com parámetros, obtiene el cubo de cada uno de ellos y los suma; al final, regresa el resultado de la suma.  
-<code>
+```
 function sumOfCubes(a, b){  
 	var aCubed = a*a*a;  
 	var bCubed = b*b*b;  
 	var sum = aCubed + bCubed;  
 	return sum;  
 }  
-</code>
-*NOTA:* Ahora puedes realizar los ejercicios de las diapositivas corespondientes a esta sesión! :).
+```
+**NOTA:** Ahora puedes realizar los ejercicios de las diapositivas corespondientes a esta sesión! :).
 
 Alcance global y alcance local de las variables.  
 --
@@ -106,23 +106,23 @@ Alcance global y alcance local de las variables.
 
 - Fuera de las funciones, el alcance las variables es global; es decir, las variables que se declaren en el programa principal pueden ser usadas en cualquier parte del mismo, incluso dentro de cualquie función.
 
-*Ejemplo:*   
-<code>
+**Ejemplo:**
+```
 var x = 6;  
 function add(a, b){  
 	var x = a+b;  
 	return x;  
 }  
-</code>
+```
 En este caso la variable <code>x</code> que se declaró dentro de la función es diferente a la que se declaró afuera.  
 
-<code>
+```
 var x = 6;  
 function add(a, b){  
 	x = a+b;  
 	return x;  
 }  
-</code>
+```
 En este caso, la variable <code>x</code> que se usa dentro de la función es la misma que está declarada fuera de ella. 
 
 Diapositivas
